@@ -1,0 +1,65 @@
+=> What is an Array?
+=> An array is a linear data structure that stores elements of the same type in contiguous memory locations.
+
+=> In Python, arrays are implemented using lists.
+
+arr = [10, 20, 30, 40]
+
+--------------------------------------------------------------------------
+
+=> Why use Arrays?
+=> Arrays are used when:
+    1. We want fast access to elements
+    2. Data size is known or manageable
+    3. Order of elements matters
+
+=> Example use cases:
+    1. Marks of students
+    2. Prices of products
+    3. Daily temperatures
+
+--------------------------------------------------------------------------
+
+=> Basic Operations on Arrays
+
+1. Traversal: Visiting every elements
+   Time: O(n)
+
+2. Insertion: 
+        append(n) -> At the end
+        Time: O(1)
+
+        insert(m, n) -> At a specific index
+        Time: O(n)
+
+3. Deletion:
+        pop(n) -> by index
+        remove(n) -> by value
+        Time: O(n)
+
+4. Searching:
+        Linear search
+        Time: O(n)
+
+--------------------------------------------------------------------------
+
+=> Advantages of Arrays
+    1. Fast access [ O(1) ]
+    2. Easy to use
+    3. Cache-friendly
+
+=> Disadvanatges of Arrays
+    1. Insertion/deletion is slow [ O(n) ]
+    2. Fixed-type elements
+    3. Wastage of memory (in low-level languages)
+
+--------------------------------------------------------------------------
+
+=> Important Array Patterns
+    1. Prefix Sum
+    2. Two Pointers
+    3. Sliding Window
+    4. Frequency counting
+    5. Sorting-based logic
+
+--------------------------------------------------------------------------
