@@ -63,3 +63,7 @@ arr = [10, 20, 30, 40]
     5. Sorting-based logic
 
 --------------------------------------------------------------------------
+
+Important:
+
+    => Never modify an array while iterating over it directly.
