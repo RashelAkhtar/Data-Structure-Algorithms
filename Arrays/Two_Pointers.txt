@@ -1,0 +1,53 @@
+### Two Pointers Technique ###
+
+The two Pointers Technique is a common algorithmic pattern used to traverse a data structure-typically an array or string - using two indices (Pointers) instead of one. It is especially effective for problems involving searching, comparing, or rearranging elements and often reduces time complexity from O(n^2) to O(n).
+
+
+--------------------------------------------------------------------------
+
+
+Instead of using nested loops, we maintain two pointers that move through the array according to specific rules.
+
+Typical pointers setups:
+    1. Left and Right pointers (start from opposite ends)
+        => Used when:
+            i. The array is sorted
+            ii. We want to find a pair, reverse elements, or check conditions
+
+    
+    2. Slow and Fast pointers (move at different speeds)
+        => Used when:
+            i. Removing duplicates
+            ii. Detecting cycles
+            iii. Modifying arrays in-place
+
+
+    3. Two pointers on sorted data (used for pair-sum, duplicated, etc.)
+        => Used when:
+            i. Find two no. sum to target
+
+
+--------------------------------------------------------------------------
+
+
+Why Two Pointers Are Important?
+
+1. Elements nested loops
+2. Works in-place (low memory)
+3. Frequently asked in coding interviews
+4. Used in arrays, strings, listed lists
+
+
+--------------------------------------------------------------------------
+
+
+When to Think of Two Pointers?
+
+1. Sorted array problems
+2. Pair or triplet problems
+3. In-place array modification
+4. Comparing elements from both ends
+5. Removing duplicated or specific values
+
+--------------------------------------------------------------------------
+
