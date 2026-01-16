@@ -1,0 +1,68 @@
+=> What is a String?
+=> A string is a sequence of Unicode characters enclosed in quotes.
+    s1 = "Hello!"
+
+Properties:
+    1. Ordered
+    2. Immutable -> Cannot be modified in place
+    3. Iterable
+    4. Indexable
+    5. Supports slicing
+
+
+--------------------------------------------------------------------------
+
+=> Common String Operations
+
+1. Concatenation
+    "a" + "b"  => "ab"
+
+2. Repetition
+    "a" * 3  => "aaa"
+
+3. Membership
+    "a" in "apple"  => True
+
+4. Length
+    len("python")  => 6
+
+
+--------------------------------------------------------------------------
+
+
+=> Important String Methods
+
+=> Case Conversion
+    1. s.upper()
+    2. s.lower()
+    3. s.capitalize()
+    4. s.title()
+
+=> Trimming
+    1. s.strip()
+    2. s.lstrip()
+    3. s.rstrip()
+
+=> Searching
+    1. s.find("a")
+    2. s.index("a")
+    3. s.count("a")
+
+=> Replace
+    1. s.replace("a", "b")
+
+=> Split and Join
+    1. s.split(" ")
+    2. "-".join(["a", "b", "c"])
+
+
+--------------------------------------------------------------------------
+
+=> Strings vs Lists (Key Difference)
+
+|   Feature      |   String     |   List      |
+| -------------  | -----------  | ----------  |
+|   Mutable      |     ❌       |   ✅        |
+|   Elements     | Characters   |   Any type  |
+|   Methods      | Text-based   |   General   |
+
